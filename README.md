@@ -15,9 +15,9 @@
 `package.json`: Configuration file for npm dependencies and scripts.<br/>
 `README.md`: Documentation file containing instructions on how to run the application locally and other relevant information.<br/>
 
-# Additional Notes
-This project uses Tailwind CSS for styling, providing a clean and responsive user interface.
-The video player component utilizes HTML5 <video> element and various React hooks for managing state and interactions.
+## Additional Notes
+This project uses Tailwind CSS for styling, providing a clean and responsive user interface.<br />
+The video player component utilizes HTML5 `<video>` element and various React hooks for managing state and interactions.
 
 ## Getting Started
 
