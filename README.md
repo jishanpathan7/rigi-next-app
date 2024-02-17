@@ -1,5 +1,3 @@
-## Project Structure
-This video player application is built with Next.js, providing users with basic video playback functionalities such as play/pause, seek, volume control, playback speed adjustment, and full-screen mode. The application also includes a playlist feature for easy navigation between multiple videos.
 
 # Project Structure
 `app/`: Contains Next.js pages for routing and rendering components.<br/>
