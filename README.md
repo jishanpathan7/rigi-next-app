@@ -52,11 +52,15 @@ Once the installation is complete, you can start the development server:
 npm run dev
 # or
 yarn dev
+
 # or
 pnpm dev
 # or
 bun dev
 ```
+
+## LightHouse Score
+![rigi-lighthouse](https://github.com/jishanpathan7/rigi-next-app/assets/88240594/50ff0868-f103-4a5c-92dc-6360ac585d59)
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
