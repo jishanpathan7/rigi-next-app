@@ -2,7 +2,30 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+To run this application locally, follow these steps:
+
+# Prerequisites
+Make sure you have Node.js and npm (Node Package Manager) installed on your machine.
+
+# Installation
+1. Clone this repository to your local machine:
+
+```bash
+git clone https://github.com/jishanpathan7/rigi-next-app.git
+```
+
+2. Install the project dependencies:
+
+```bash
+npm install
+# or
+yarn add
+```
+
+
+# Running the Application
+
+Once the installation is complete, you can start the development server:
 
 ```bash
 npm run dev
