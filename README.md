@@ -1,4 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+# Project Structure
+`app/`: Contains Next.js pages for routing and rendering components.<br/>
+`layout.jsx`: Main page of the application, rendering the video player and playlist components.<br/>
+`components/`: Contains reusable React components used throughout the application.<br/>
+`Header.js`: Component for the application header. <br/>
+`Playlist.js`: Component for displaying and interacting with the video playlist.<br/>
+`VideoDetails.js`: Component for displaying details about the currently playing video.<br/>
+`VideoPlayer.js`: Main component for the video player functionality.<br/>
+`data/`: Contains JSON data files used to populate the video playlist.<br/>
+`mediaJson.js`: JSON data file containing information about the videos, such as title, description, source URLs, and thumbnails.<br/>
+`utils/`: Contains utility functions used across the application.<br/>
+`formatTime.js`: Utility function for formatting time in minutes and seconds.<br/>
+`public/`: Contains static assets such as images and videos used in the application.<br/>
+`package.json`: Configuration file for npm dependencies and scripts.<br/>
+`README.md`: Documentation file containing instructions on how to run the application locally and other relevant information.<br/>
+
+## Additional Notes
+This project uses Tailwind CSS for styling, providing a clean and responsive user interface.<br />
+The video player component utilizes HTML5 `<video>` element and various React hooks for managing state and interactions.
 
 ## Getting Started
 
@@ -31,11 +50,15 @@ Once the installation is complete, you can start the development server:
 npm run dev
 # or
 yarn dev
+
 # or
 pnpm dev
 # or
 bun dev
 ```
+
+## LightHouse Score
+![rigi-lighthouse](https://github.com/jishanpathan7/rigi-next-app/assets/88240594/50ff0868-f103-4a5c-92dc-6360ac585d59)
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
