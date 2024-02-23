@@ -59,10 +59,6 @@ const VideoPlayer = ({ video }) => {
     if (videoElement) videoElement.volume = vol;
   };
 
-  const handleFullScreenChange = () => {
-    setIsFullScreen(!!document.fullscreenElement);
-  };
-
   const toggleFullScreen = () => {
     if (!document.fullscreenElement) {
       videoElement.requestFullscreen();

@@ -41,7 +41,8 @@ const Playlist = ({ videos, onDragEnd, handleVideoClick }) => {
                       {...provided.draggableProps}
                     >
                       <div
-                        className="px-2 py-3 border-r border-r-slate-200 rounded-l-md transitionborder-r-sky-200 hover:bg-sky-200 flex items-center justify-between gap-2"
+                        className="px-2 py-3 border-r border-r-slate-200 rounded-l-md 
+                        transitionborder-r-sky-200 hover:bg-sky-200 flex items-center justify-between gap-2"
                         {...provided.dragHandleProps}
                       >
                         <div
